@@ -1,5 +1,5 @@
+// follow source  https://github.com/AlloyTeam/eslint-config-alloy/blob/master/typescript.js
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
@@ -254,10 +254,9 @@ module.exports = {
      */
     '@typescript-eslint/no-parameter-properties': 1,
     /**
-     * 禁止使用 require
-     * @reason 统一使用 import 来引入模块，特殊情况使用单行注释允许 require 引入
+     * 很多西方需要使用到 require，特别是 node 端
      */
-    '@typescript-eslint/no-require-imports': 1,
+    '@typescript-eslint/no-require-imports': 0,
     /**
      * 禁止将 this 赋值给其他变量，除非是解构赋值
      */

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'plugin:css-modules/recommended'],
+  extends: ['airbnb', './_shared.js', 'plugin:css-modules/recommended'],
   plugins: ['react', 'react-hooks', 'css-modules'],
   rules: {
     // 'react/forbid-prop-types': 0,
@@ -12,6 +12,7 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/require-default-props': 0,
     'react/no-unused-prop-types': 0,
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     //
     'react-hooks/rules-of-hooks': 1,
     'react-hooks/exhaustive-deps': 1,
