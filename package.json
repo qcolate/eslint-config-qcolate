@@ -25,10 +25,6 @@
     }
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "clean": "lerna clean && rimraf yarn.lock && rimraf node_modules",
-    "fix": "lerna run fix",
-    "---------------------------------------------------------------------- LINE ----": "----",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "release": "npm publish --dist-tag"
   },
