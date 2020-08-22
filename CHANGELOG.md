@@ -1,3 +1,5 @@
+## [0.0.3](https://github.com/qcolate/eslint-config-qcolate/compare/v0.0.2...v0.0.3) (2020-08-22)
+
 ## [0.0.2](https://github.com/qcolate/eslint-config-qcolate/compare/v0.0.1...v0.0.2) (2020-08-22)
 
 ### Bug Fixes
