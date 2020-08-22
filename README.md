@@ -18,7 +18,6 @@ Create an .eslintrc.js in the root directory of your project, then copy the foll
 
 ```javascript
 // .eslintrc.js
-
 module.exports = {
   extends: ['qcolate'],
   env: {
@@ -49,7 +48,6 @@ yarn add -D  eslint babel-eslint eslint-config-qcolate
 
 ```javascript
 // .eslintrc.js
-
 module.exports = {
   extends: ['qcolate', 'qcolate/react'],
 };
@@ -63,7 +61,6 @@ yarn add -D  eslint typescript @typescript-eslint/parser @typescript-eslint/esli
 
 ```javascript
 // .eslintrc.js
-
 module.exports = {
   extends: ['qcolate', 'qcolate/typescripot'],
 };
@@ -77,7 +74,6 @@ yarn eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugi
 
 ```javascript
 // .eslintrc.js
-
 module.exports = {
   extends: ['qcolate', 'qcolate/react', 'qcolate/typescript'],
 };
@@ -85,9 +81,9 @@ module.exports = {
 
 ## Memo
 
-Q: `import/no-unresolved`
+### error 01
 
-A:
+has an `import/no-unresolved` error? you need to install plugins:
 
 ```bash
 yarn add -D eslint-import-resolver-webpack
@@ -95,7 +91,6 @@ yarn add -D eslint-import-resolver-webpack
 
 ```javascript
 // .eslintrc.js
-
 module.exports = {
   settings: {
     'import/resolver': {
