@@ -13,6 +13,7 @@ module.exports = {
     'lines-between-class-members': 0,
     'space-before-function-paren': 0,
     //
+    'no-console': 0,
     'no-array-constructor': 0,
     'no-dupe-class-members': 0,
     'no-empty-function': 0,
