@@ -1,3 +1,9 @@
+## [0.0.4](https://github.com/qcolate/eslint-config-qcolate/compare/v0.0.3...v0.0.4) (2020-08-22)
+
+### Features
+
+- no-console off ([15d689d](https://github.com/qcolate/eslint-config-qcolate/commit/15d689d80c5394e5ba095456f591d5e2b5775e63))
+
 ## [0.0.3](https://github.com/qcolate/eslint-config-qcolate/compare/v0.0.2...v0.0.3) (2020-08-22)
 
 ## [0.0.2](https://github.com/qcolate/eslint-config-qcolate/compare/v0.0.1...v0.0.2) (2020-08-22)
