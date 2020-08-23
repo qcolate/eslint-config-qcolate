@@ -12,6 +12,7 @@ module.exports = {
     'keyword-spacing': 0,
     'lines-between-class-members': 0,
     'space-before-function-paren': 0,
+    'class-methods-use-this': 0,
     //
     'no-console': 0,
     'no-array-constructor': 0,

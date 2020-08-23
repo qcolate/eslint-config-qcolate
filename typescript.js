@@ -68,10 +68,9 @@ module.exports = {
      */
     '@typescript-eslint/explicit-function-return-type': 0,
     /**
-     * 必须设置类的成员的可访问性
-     * @reason 将不需要公开的成员设为私有的，可以增强代码的可理解性，对文档输出也很友好
+     * MOD+ react lifecycle 需要此配置
      */
-    '@typescript-eslint/explicit-member-accessibility': 1,
+    '@typescript-eslint/explicit-member-accessibility': 0,
     /**
      * 导出的函数或类中的 public 方法必须定义输入输出参数的类型
      */

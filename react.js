@@ -1,8 +1,9 @@
 module.exports = {
-  extends: ['airbnb', './_shared.js', 'plugin:css-modules/recommended'],
-  plugins: ['react', 'react-hooks', 'css-modules'],
+  extends: ['airbnb', './_shared.js'],
+  plugins: ['react', 'react-hooks'],
   rules: {
     // 'react/forbid-prop-types': 0,
+    'react/style-prop-object': 0,
     'react/prop-types': 0,
     'react/destructuring-assignment': 0,
     'react/jsx-one-expression-per-line': 0,
@@ -16,7 +17,5 @@ module.exports = {
     //
     'react-hooks/rules-of-hooks': 1,
     'react-hooks/exhaustive-deps': 1,
-    //
-    'css-modules/no-unused-class': 0,
   },
 };
