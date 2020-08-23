@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['airbnb-base', './_shared.js', 'plugin:prettier/recommended'],
+  extends: ['airbnb-base', './_shared.js'],
   parser: 'babel-eslint',
   plugins: ['import'],
   parserOptions: {
