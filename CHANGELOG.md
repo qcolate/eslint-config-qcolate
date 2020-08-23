@@ -1,3 +1,9 @@
+## [0.0.5](https://github.com/qcolate/eslint-config-qcolate/compare/v0.0.4...v0.0.5) (2020-08-23)
+
+### Performance Improvements
+
+- adject react rules ([166f308](https://github.com/qcolate/eslint-config-qcolate/commit/166f308be1d032e05d3e56942aebf4cd9ee92a0a))
+
 ## [0.0.4](https://github.com/qcolate/eslint-config-qcolate/compare/v0.0.3...v0.0.4) (2020-08-22)
 
 ### Features
