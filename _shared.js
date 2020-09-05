@@ -31,17 +31,7 @@ module.exports = {
     //
     'import/prefer-default-export': 0,
     'import/no-extraneous-dependencies': 0,
-    'import/no-unresolved': ['error', { ignore: ['@'] }],
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-        mjs: 'never',
-      },
-    ],
+    'import/no-unresolved': 0,
+    'import/extensions': 0,
   },
 };
