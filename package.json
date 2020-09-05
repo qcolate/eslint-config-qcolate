@@ -27,8 +27,11 @@
     }
   },
   "scripts": {
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "release": "npm publish --dist-tag"
+    "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
+    "publish-npm": "git push --follow-tags origin master && npm publish",
+    "release": "standard-version && yarn publish-npm",
+    "release:minor": "standard-version -r minor && yarn publish-npm",
+    "release:major": "standard-version -r major && yarn pupublish-npmsh"
   },
   "keywords": [
     "eslint",
