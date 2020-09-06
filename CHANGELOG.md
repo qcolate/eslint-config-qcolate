@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/qcolate/eslint-config-qcolate/compare/v1.0.1...v1.1.0) (2020-09-06)
+
+### Features
+
+- css-modules/no-undef-class -> 0 ([d014dbe](https://github.com/qcolate/eslint-config-qcolate/commit/d014dbe0c179db1232f839c4c61e5b6846281c34))
+
+### Chore
+
+- update scripts ([29d0b2c](https://github.com/qcolate/eslint-config-qcolate/commit/29d0b2c9d0b909eaf862890dea185db8743eabe2))
+
 ### [1.0.1](https://github.com/qcolate/eslint-config-qcolate/compare/v1.0.0...v1.0.1) (2020-09-05)
 
 ### Bug Fixes
