@@ -5,5 +5,6 @@ module.exports = {
   plugins: ['css-modules'],
   rules: {
     'css-modules/no-unused-class': 0,
+    'css-modules/no-undef-class': 0,
   },
 };
