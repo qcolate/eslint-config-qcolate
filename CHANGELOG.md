@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/qcolate/eslint-config-qcolate/compare/v1.1.4...v1.1.5) (2020-10-24)
+
+
+### Refactor
+
+* update release scripts ([53b2483](https://github.com/qcolate/eslint-config-qcolate/commit/53b2483855091ba804d6675b6b76eea9a956835e))
+
 ### [1.1.4](https://github.com/qcolate/eslint-config-qcolate/compare/v1.1.3...v1.1.4) (2020-10-24)
 
 ### [1.1.3](https://github.com/qcolate/eslint-config-qcolate/compare/v1.1.2...v1.1.3) (2020-10-24)
