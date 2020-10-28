@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/qcolate/eslint-config-qcolate/compare/v1.1.5...v1.1.6) (2020-10-28)
+
+
+### Chore
+
+* update dependencies ([f59972b](https://github.com/qcolate/eslint-config-qcolate/commit/f59972b0f8d46349e0f94061e35431f9707e7ddf))
+
 ### [1.1.5](https://github.com/qcolate/eslint-config-qcolate/compare/v1.1.4...v1.1.5) (2020-10-24)
 
 
